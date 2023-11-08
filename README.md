@@ -2,6 +2,8 @@
 
 > Hackable AI Powered Mirror on your laptop.
 
+![bike.gif](bike.gif)
+
 Mirror is a web app that constantly watches the realtime video feed from the webcam and responds with comments.
 
 1. **100% Local and Private:** Try all kinds of ideas. Don't worry, everything happens on your laptop with NO Internet connection.
