@@ -39,9 +39,11 @@ Some example prompts you can try:
 
 # Install
 
-## 1 Click Install
+## [RECOMMENDED] 1 Click Install
 
-**[Recommended]** Try the 1 click install using Pinokio: 
+Try the 1 click install using Pinokio: https://pinokio.computer/item?uri=https://github.com/cocktailpeanut/mirror
+
+![install.gif](install.gif)
 
 >
 > Mirror has a lot of moving parts, so if you don't use the 1 Click Installer, it may take a lot of work:
