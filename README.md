@@ -18,6 +18,23 @@ Mirror is a web app that constantly watches the realtime video feed from the web
 2. When you allow the webcam, it will start streaming the video to the AI ([Bakllava](https://huggingface.co/SkunkworksAI/BakLLaVA-1), running on [llama.cpp](https://github.com/ggerganov/llama.cpp)).
 3. The AI will analyze the image and stream the response, which the frontend prints in realtime.
 
+# Usage
+
+When you launch the web UI, it will immediately start streaming responses from the AI based on the prompt: **"Describe a person in the image".**
+
+**You can edit this field** to let Mirror start streaming whatever you want
+
+
+![editing.gif](editing.gif)
+
+Some example prompts you can try:
+
+1. What is this object I am holding?
+2. What is the person doing?
+3. Describe some notable events in the image.
+4. How many people are in this picture?
+5. Let me know if you see anything weird.
+
 # Install
 
 ## 1 Click Install
