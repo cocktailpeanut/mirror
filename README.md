@@ -43,6 +43,8 @@ Some example prompts you can try:
 
 Try the 1 click install using Pinokio: https://pinokio.computer/item?uri=https://github.com/cocktailpeanut/mirror
 
+> Make sure to use the latest version of Pinokio (0.1.49 and above)
+
 ![install.gif](install.gif)
 
 >
