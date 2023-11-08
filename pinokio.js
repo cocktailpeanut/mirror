@@ -2,7 +2,6 @@ module.exports = {
   title: "Mirror",
   description: "An AI powered mirror",
   icon: "icon.webp",
-  description: "",
   menu: async (kernel) => {
     let llama_installed = await kernel.exists(__dirname, "llama.cpp")
     let app_installed = await kernel.exists(__dirname, "venv")
