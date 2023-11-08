@@ -12,6 +12,8 @@ Mirror is a web app that constantly watches the realtime video feed from the web
 
 # How it works
 
+Watch the video of Mirror in action:
+
 [![Watch the video](thumb.png)](https://www.youtube.com/watch?v=7Mx1W12Tvpw)
 
 1. When you launch the app, the browser will ask you for webcam permission.
