@@ -12,7 +12,7 @@ Mirror is a web app that constantly watches the realtime video feed from the web
 
 # How it works
 
-[![Watch the video](https://i3.ytimg.com/vi/7Mx1W12Tvpw/hqdefault.jpg)](https://www.youtube.com/watch?v=7Mx1W12Tvpw)
+[![Watch the video](thumb.png)](https://www.youtube.com/watch?v=7Mx1W12Tvpw)
 
 1. When you launch the app, the browser will ask you for webcam permission.
 2. When you allow the webcam, it will start streaming the video to the AI ([Bakllava](https://huggingface.co/SkunkworksAI/BakLLaVA-1), running on [llama.cpp](https://github.com/ggerganov/llama.cpp)).
