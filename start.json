@@ -1,0 +1,36 @@
+{
+  "daemon": true,
+  "run": [{
+    "method": "shell.run",
+    "params": {
+      "path": "llama.cpp/build/bin",
+      "message": "{{platform === 'win32' ? 'Release\\\\server.exe' : './server'}} -m ../../models/ggml-model-q4_k.gguf --mmproj ../../models/mmproj-model-f16.gguf -ngl 1",
+      "on": [{
+        "event": "/llama server listening at (http:\/\/[0-9.:]+)/i",
+        "done": true
+      }]
+    }
+  }, {
+    "method": "self.set",
+    "params": { "session.json": { "llama": "{{input.event[1]}}" } }
+  }, {
+    "method": "shell.run",
+    "params": {
+      "venv": "venv",
+      "message": "python app.py",
+      "on": [{
+        "event": "/(http:\/\/[0-9.:]+)/i",
+        "done": true
+      }]
+    }
+  }, {
+    "method": "self.set",
+    "params": { "session.json": { "ui": "{{input.event[1]}}" } }
+  }, {
+    "method": "browser.open",
+    "params": {
+      "uri": "{{self.session.ui}}",
+      "target": "_blank"
+    }
+  }]
+}
