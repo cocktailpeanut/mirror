@@ -1,4 +1,4 @@
 requests
 imageio[ffmpeg]
 imageio-ffmpeg
-gradio
+gradio=4.1.0
