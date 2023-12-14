@@ -118,8 +118,8 @@ Release\server.exe -m ..\..\ggml-model-q4_k.gguf --mmproj ..\..\mmproj-model-f16
 #### Mac & Linux
 
 ```
-cd llama.cpp\build\bin
-./server -m ..\..\ggml-model-q4_k.gguf --mmproj ..\..\mmproj-model-f16.gguf -ngl 1
+cd llama.cpp/build/bin
+./server -m ../../models/ggml-model-q4_k.gguf --mmproj ../../models/mmproj-model-f16.gguf -ngl 1
 ```
 
 #### 8. Launch the web UI
